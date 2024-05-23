@@ -35,7 +35,6 @@ body {
 }
 
 
-
 input[type="text"] {
   padding: 10px;
   margin-bottom: 10px;
@@ -62,4 +61,16 @@ button:hover {
 p {
   color: #fff;
   margin-top: 10px;
+}
+
+
+@keyframes crescer {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
