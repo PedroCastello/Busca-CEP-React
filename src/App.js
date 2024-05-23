@@ -1,23 +1,14 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import CEPForm from './components/CEPForm';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" style={{ backgroundImage: 'url(https://i.pinimg.com/originals/68/2a/a8/682aa81619f08a3e70882caabc02bf1a.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', height: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+     <div className="container">
+        <h1 style={{ textAlign: 'center', color: '#fff' }}>Consulta de Endereço por CEP</h1>
+        <CEPForm />
+      </div>
     </div>
   );
 }
