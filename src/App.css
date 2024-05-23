@@ -55,6 +55,10 @@ input[type="text"] {
   width: 80%;
   height: 20px; 
   padding-right: 40px; /* Espaço para a lupa */
+  background-color: lightgray; /* Sua cor de fundo */
+  position: relative; /* Adiciona posição relativa */
+  z-index: 1; /* Define um índice z explícito */
+
 }
 
 button {
